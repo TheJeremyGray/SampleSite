@@ -1,0 +1,27 @@
+﻿ <div id="menuToggle" class="show-on-phones">
+ 
+ <a href="#" class="text">MENU</a><a href="#" id="menu-toggler"><span>&#8230;</span></a></div>
+
+<div id="mainMenu">
+    <ul class="nav-bar">
+        <li><a href="@Url.Action("Index", new { area = "", controller = "Home" })" class="main">Home</a></li>
+
+        @if (!@User.Identity.IsAuthenticated)
+        {        
+        <li><a href="@Url.Action("LogOn", new { area = "", controller = "Account" })" class="main">Log On</a></li>
+        }
+        else
+        {
+            <li>Hello, @User.Identity.Name</li>
+            <li><a href="@Url.Action("LogOff", new { area = "", controller = "Account" })" class="main">Log Off</a></li>
+        }
+        <li><a href="@Url.Action("About", new { area = "", controller = "" })" class="main">About</a></li>   
+         @if (@User.IsInRole("Administrators"))
+         {
+             <li><a href="@Url.Action("Administration", new { area = "", controller = "Home" })" class="main">Admin</a></li>   
+             <li><a href="/elmah" class="main">Error Log</a>  </li>             
+         }     
+    </ul>
+
+    <h1 class="text-center">My Sweet Website</h1>
+</div>

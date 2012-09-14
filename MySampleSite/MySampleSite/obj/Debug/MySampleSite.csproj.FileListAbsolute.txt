@@ -1,0 +1,8 @@
+C:\Users\Jeremy\Documents\GitHub\MySampleSite\MySampleSite\MySampleSite\bin\MySampleSite.dll
+C:\Users\Jeremy\Documents\GitHub\MySampleSite\MySampleSite\MySampleSite\bin\MySampleSite.pdb
+C:\Users\Jeremy\Documents\GitHub\MySampleSite\MySampleSite\MySampleSite\bin\EntityFramework.xml
+C:\Users\Jeremy\Documents\GitHub\MySampleSite\MySampleSite\MySampleSite\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jeremy\Documents\GitHub\MySampleSite\MySampleSite\MySampleSite\obj\Debug\MySampleSite.dll
+C:\Users\Jeremy\Documents\GitHub\MySampleSite\MySampleSite\MySampleSite\obj\Debug\MySampleSite.pdb
+C:\Users\Jeremy\Documents\GitHub\MySampleSite\MySampleSite\MySampleSite\bin\Prototyping.Ipsum.xml
+C:\Users\Jeremy\Documents\GitHub\MySampleSite\MySampleSite\MySampleSite\bin\Prototyping.Placeholdit.xml

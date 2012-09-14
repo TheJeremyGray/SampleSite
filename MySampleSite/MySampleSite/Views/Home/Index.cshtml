@@ -1,0 +1,32 @@
+﻿@using Prototyping.Ipsum
+@using Prototyping.Placeholdit
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+<div class="row show-on-phones phone one">
+    <select id="mobileNav">
+        <option value="#">Menu...</option>
+        <option value="#">@Html.Ipsum().Words(2)</option>
+        <option value="#">@Html.Ipsum().Words(2)</option>
+        <option value="#">@Html.Ipsum().Words(2)</option>
+        <option value="#">@Html.Ipsum().Words(2)</option>
+    </select>
+</div>
+
+<div class="row">
+
+    <div class="three columns hide-on-phones">
+        <h5>Fictional Features</h5>
+        @Html.Ipsum().dl(links: true, dlAttributes: new { @class = "tabs vertical" })
+    </div>
+    <div class="five columns phone two">
+        @Html.Placehold(400, 500)
+    </div>
+    <div class ="four columns phone one">
+        @Html.Ipsum().Paragraphs(1)
+    </div>
+</div>
